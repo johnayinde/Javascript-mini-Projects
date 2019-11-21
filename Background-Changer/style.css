@@ -1,0 +1,30 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    text-align: center;
+}
+.colorbtn  {
+    background: rgba(0,0,0,0.6);
+
+    border: 2px solid black;
+    padding: 10px 22px;
+    border-radius: 10px;
+    /* width: 200px; */
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+}
+.colorbtn:hover{
+    background: rgb(0,0,0);
+}
+.hextext{
+    font-size: 3rem;
+    
+}

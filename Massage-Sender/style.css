@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background:rgb(59, 202, 238); 
+}
+.container{
+    background: rgba(243, 230, 230, 0.465);
+    padding: 10px;
+    text-align: center;
+    flex: 0 0 80%;
+
+}
+h1{
+    text-transform: uppercase;
+}
+textarea{
+    padding: 15px;
+    border: 2px solid rgb(59, 202, 238); 
+    border-radius: 10px;
+    font-size: x-large;
+    outline: none;
+
+
+}
+button {
+    background: rgb(59, 202, 238);
+    color: #fff;
+    font-size: 1.5rem;
+    outline: none;
+    border: 1px solid rgb(59, 202, 238);
+    padding: 6px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+
+}
+button:hover{
+    background:rgba(0,0,0,0.3);
+}
+button:active{
+    border: 1px solid rgb(34, 151, 180); 
+}
+.massage{
+    font-size: 2rem;
+    font-family: 'Arial black' , serif;
+
+}

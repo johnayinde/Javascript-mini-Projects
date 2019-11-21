@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background:rgb(59, 202, 238); 
+    font-family: Arial, helvetica, sans-serif;
+}
+.container{
+    background: rgba(243, 230, 230, 0.465);
+    padding: 10px;
+    text-align: center;
+    flex: 0 0 80%;
+
+}
+h1{
+    text-transform: uppercase;
+}
+.count{
+  font-size: 6rem ;
+  color: #fff;
+}
+.btnGroup button{
+    display: inline-block;
+}
+ button {
+    background: rgb(59, 202, 238);
+    color: #fff;
+    font-size: 1.5rem;
+    outline: none;
+    border: 1px solid rgb(59, 202, 238);
+    padding: 6px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 1.5rem;
+    /* float: left; */
+} 
+button:hover{
+    background:rgba(0,0,0,0.3);
+}
+button:active{
+    border: 1px solid rgb(34, 151, 180); 
+}
+
